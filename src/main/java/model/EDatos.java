@@ -11,7 +11,7 @@ package model;
  */
 public class EDatos {
     //Atributos de la clase
-    private int codigo;
+    private String codigo;
     private String nombre;
     private String materia;
     
@@ -19,7 +19,7 @@ public class EDatos {
     public EDatos() {
     }
     
-    public EDatos(int codigo, String nombre, String materia) {
+    public EDatos(String codigo, String nombre, String materia) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.materia = materia;
@@ -27,11 +27,11 @@ public class EDatos {
     
     // Get and set
 
-    public int getCodigo() {
+    public String getCodigo() {
         return codigo;
     }
 
-    public void setCodigo(int codigo) {
+    public void setCodigo(String codigo) {
         this.codigo = codigo;
     }
 

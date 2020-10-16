@@ -37,5 +37,5 @@ public class Controlador implements ActionListener {
         modelo = (DefaultTableModel)tabla.getModel();
         
     }
-            
+         
 }
